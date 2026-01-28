@@ -10,13 +10,8 @@ const HeroSection: React.FC = () => {
         restDelta: 0.001,
     });
 
-    const handleGetInTouch = (): void => {
-        console.log('Get in touch clicked');
-    };
-
-    const handleDownloadResume = (): void => {
-        console.log('Download resume clicked');
-    };
+    
+  
 
     return (
         <>
@@ -110,7 +105,7 @@ const HeroSection: React.FC = () => {
                                 }}
                             >
                                 <button
-                                    onClick={handleGetInTouch}
+                                  
                                     className="inline-flex items-center justify-center gap-2
                              bg-[#5A3E6B] text-white px-6 py-3 rounded-lg
                              font-medium hover:bg-[#3a3a58] transition group"
