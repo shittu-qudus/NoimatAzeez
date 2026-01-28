@@ -23,8 +23,8 @@ const Footer: React.FC = () => {
     ];
 
     const socialLinks: SocialLink[] = [
-        { icon: <Linkedin size={20} />, href: 'https://linkedin.com', label: 'LinkedIn' },
-        { icon: <Twitter size={20} />, href: 'https://twitter.com', label: 'Twitter' },
+        { icon: <Linkedin size={20} />, href: 'https://linkedin.com/', label: 'LinkedIn' },
+        { icon: <Twitter size={20} />, href: 'https://x.com/pearlLami', label: 'Twitter' },
         { icon: <Dribbble size={20} />, href: 'https://dribbble.com', label: 'Dribbble' }
     ];
 
